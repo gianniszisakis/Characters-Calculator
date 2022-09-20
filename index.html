@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Characters counter</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm">
+          <div class="card-header text-center">
+            <h1>My sentence / word</h1>
+          </div>
+
+          <div class="card">
+            <div class="card-body text-center">
+              <input type="text" class="string1TxtBox form-control" placeholder="My sentence / word" aria-label="My sentence / word" aria-describedby="basic-addon2">
+              <br />
+              <button class="btnClick btn btn-outline-secondary" type="button">Calculate</button>
+              <button class="clearBtnClick btn btn-outline-danger" type="button">Clear values</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm">
+
+          <div class="col-sm">
+            <div class="card-header text-center">
+              <h1>Characters counter</h1>
+            </div>
+  
+            <div class="card">
+              <div class="card-body text-center">
+                <p class="counterResult">Characters typed</p>
+                <p class="uniqueCharacters">Unique Characters</p>
+                <p class="Characters">The Characters you typed</p>
+                <p class="UniqueCharacters">The Unique Characters you typed</p>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
